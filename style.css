@@ -1,0 +1,25 @@
+body {
+    background-color: #2C3A47;
+    font-family: Arial;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#results {
+    font-family: Agency FB;
+    font-size: x-large;
+    margin: 0 auto;
+    display: block;
+    width: 700px;
+    text-align: center;
+    padding: 100px;
+    background-color: #182C61;
+    color: #25CCF7;
+}
+
+.box{
+    width: 100%;
+    text-align:center;
+    
+}
