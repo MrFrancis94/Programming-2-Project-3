@@ -23,3 +23,20 @@ $(() => {
         $('#results').append(lyrics.lyrics);
     }
 });
+
+
+function getWeather(latitude, longtitude) {
+  $.ajax({
+    url: 'http://api.openweathermap.org/data/2.5/weather?q=Helsingborg',
+    data: {
+      lat: latitude,
+      lon: longtitude,
+      units: 'metric',
+      apikey: '5cd9141e5e460c9f3d40e74a3d7bcafc'
+    },
+    success: data => {
+    }
+  })
+}
+
+getWeather(56.046880, 12.695250);
